@@ -1,0 +1,25 @@
+# Ignorer les fichiers ZIP (données téléchargées ou compressées)
+*.zip
+
+# Ignorer le fichier kaggle.json (API credentials)
+kaggle.json
+
+# Ignorer les dossiers contenant les données extraites
+happywhale_images/
+data/
+
+# Ignorer les fichiers temporaires de Python
+*.pyc
+__pycache__/
+
+# Ignorer les environnements virtuels
+env/
+venv/
+
+# Ignorer les fichiers générés par Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorer les fichiers système (Mac, Windows, Linux)
+.DS_Store
+Thumbs.db
+desktop.ini
